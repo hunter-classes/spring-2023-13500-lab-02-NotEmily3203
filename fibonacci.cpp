@@ -1,4 +1,4 @@
-//Name: Emily Lin; Github: NotEmily
+//Name: Emily Lin; Github: NotEmily3203
 #include <iostream>
 int main(){
     int fib[60];
