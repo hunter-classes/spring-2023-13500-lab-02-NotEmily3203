@@ -1,12 +1,4 @@
-/*
-Author: Emily Lin
-Course: CSCI-135
-Instructor: Gennadiy Maryash
-Assignment: Lab2C
-
-Here, briefly, at least in one or a few sentences
-describe what the program does.
-*/
+//Name: Emily Lin; Github: NotEmily3203
 #include <iostream>
 int main(){
     const int size =10;
@@ -26,6 +18,6 @@ int main(){
         std::cin>>v;
         myData[i]=v;
     }while(i>=0 && i<10);
-    std::cout<<"Index out of range. Exit"<<std::endl;
+    std::cout<<"Index out of range. Exit."<<std::endl;
     return 0;
 }
