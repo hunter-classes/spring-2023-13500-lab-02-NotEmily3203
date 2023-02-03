@@ -6,7 +6,7 @@ int main(){
     for(int i=0;i<size;i++){
         myData[i]=1;
     }
-    int i;
+    int i=0;
     int v;
     do{
         for(int i=0;i<size;i++){
@@ -14,10 +14,13 @@ int main(){
         }
         std::cout<<"\nInput index: ";
         std::cin>>i;
-        std::cout<<"Input value: ";
-        std::cin>>v;
-        myData[i]=v;
+        if(i>=0 && i<10){
+            std::cout<<"Input value: ";
+            std::cin>>v;
+            myData[i]=v;
+        }else{
+            std::cout<<"Index out of range. Exit."<<std::endl;
+        }
     }while(i>=0 && i<10);
-    std::cout<<"Index out of range. Exit."<<std::endl;
     return 0;
 }
