@@ -25,7 +25,7 @@ int main(){
         std::cout<<"Input value: ";
         std::cin>>v;
         myData[i]=v;
-    }while(i>0 && i<=10);
+    }while(i>=0 && i<10);
     std::cout<<"Index out of range. Exit"<<std::endl;
     return 0;
 }
