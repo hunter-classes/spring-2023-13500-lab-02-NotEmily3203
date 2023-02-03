@@ -1,3 +1,12 @@
+/*
+Author: Emily Lin
+Course: CSCI-135
+Instructor: Gennadiy Maryash
+Assignment: Lab2C
+
+Here, briefly, at least in one or a few sentences
+describe what the program does.
+*/
 #include <iostream>
 int main(){
     const int size =10;
@@ -13,7 +22,6 @@ int main(){
         }
         std::cout<<"\nInput index: ";
         std::cin>>i;
-        std::cout<<i<<std::endl;
         std::cout<<"Input value: ";
         std::cin>>v;
         myData[i]=v;
